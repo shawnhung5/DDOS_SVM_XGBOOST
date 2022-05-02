@@ -1,0 +1,51 @@
+機器學習程式:
+SVM-kdd99-100.py=>使用SVM算法，訓練模型，使用訓練數據集輸出精度
+XGBoost_testmodel_100.ipynb=>使用XGBoost算法，訓練模型，使用訓練數據集輸出準確率
+
+特徵提取程式:
+Data-replacementN12.py=>N12特徵欄位:protocol_type	count	srv_count	same_srv_rate	diff_srv_rate	srv_diff_host_rate	dst_host_count	dst_host_srv_count	dst_host_same_srv_rate	dst_host_diff_srv_rate	dst_host_same_src_port_rate	dst_host_srv_diff_host_rate	PT	NT	DPort	Win	Len	TSC	label
+Data-replacementN11.py=>N11特徵欄位:protocol_type	count	srv_count	same_srv_rate	diff_srv_rate	srv_diff_host_rate	dst_host_count	dst_host_srv_count	dst_host_same_srv_rate	dst_host_diff_srv_rate	dst_host_same_src_port_rate	dst_host_srv_diff_host_rate	flag	serror_rate	rerror_rate	srv_serror_rate	srv_rerror_rate	dst_host_serror_rate	dst_host_rerror_rate	dst_host_srv_serror_rate	dst_host_srv_rerror_rate	label
+
+測試模型程式:
+readmodel-kdd99.py=>讀取測試數據集，測試訓練好的模型的輸出精度
+
+訓練模型:
+datab-0-5-FO-250000N11.csv
+datab-0-5-FO-250000N12.csv
+datab-0-5-FON-280000N12.csv
+datab-0-6-FO-280000N12.csv
+0-5=>label:syn flood,icmp flood,slowloris,slow post,slow read
+0-6=>label:syn flood,icmp flood,udp flood,slowloris,slow post,slow read
+FO=>防火牆關閉
+FON=>防火牆關閉，打開apache
+250000=>數據個數
+N11,N12=>N11,N12特徵欄位
+
+測試模型:
+t50515253545562-FO-N12.csv
+t505152535462-FO-N11.csv
+t505152535462-FO-N12.csv
+t505152535462-FON-N12.csv
+50515253545562=>表示ip地址的後三位:150,151,152,153,154,155,162
+FO=>防火牆關閉
+FON=>防火牆關閉，打開apache
+N11,N12=>N11,N12特徵欄位
+
+The trained model:
+rbfModel-0-5-FO-250000N10-100.pickle
+rbfModel-0-5-FO-250000N22-100.pickle
+rbfModel-0-5-FON-280000N22-100.pickle
+rbfModel-0-6-FO-280000N22-100.pickle
+xgboostModel-0-6-FO-280000N22-100.pickle
+xgboostModel-FO-250000N10-100.pickle
+xgboostModel-FO-250000N22-100.pickle
+xgboostModel-FON-280000N22-100.pickle
+rbfModel=>使用SVM train,使用RDF核函數
+xgboostModel=>使用 XGBoost 訓練
+0-5=>label:syn flood,icmp flood,slowloris,slow post,slow read
+0-6=>label:syn flood,icmp flood,udp flood,slowloris,slow post,slow read
+FO=>防火牆關閉
+FON=>防火牆關閉，打開apache
+250000=>數據個數
+N11,N12=>N11,N12特徵欄位
+N22=>N22Feature 字段：protocol_type count srv_count same_srv_rate diff_srv_rate srv_diff_host_rate dst_host_count dst_host_srv_count dst_host_same_srv_rate dst_host_diff_srv_rate dst_host_same_src_port_rate dst_host_srv_diff_host_rate PT NT Win TSC label

@@ -1,0 +1,51 @@
+machine learning program:
+SVM-kdd99-100.py=>Use SVM algorithm,Train the model,Output accuracy using training dataset
+XGBoost_testmodel_100.ipynb=>Use XGBoost algorithm,Train the model,Output accuracy using training dataset
+
+feature extraction program:
+Data-replacementN12.py=>N12Feature field:protocol_type	count	srv_count	same_srv_rate	diff_srv_rate	srv_diff_host_rate	dst_host_count	dst_host_srv_count	dst_host_same_srv_rate	dst_host_diff_srv_rate	dst_host_same_src_port_rate	dst_host_srv_diff_host_rate	PT	NT	DPort	Win	Len	TSC	label
+Data-replacementN11.py=>N11Feature field:protocol_type	count	srv_count	same_srv_rate	diff_srv_rate	srv_diff_host_rate	dst_host_count	dst_host_srv_count	dst_host_same_srv_rate	dst_host_diff_srv_rate	dst_host_same_src_port_rate	dst_host_srv_diff_host_rate	flag	serror_rate	rerror_rate	srv_serror_rate	srv_rerror_rate	dst_host_serror_rate	dst_host_rerror_rate	dst_host_srv_serror_rate	dst_host_srv_rerror_rate	label
+
+test model program:
+readmodel-kdd99.py=>Read the test data set to test the output accuracy of the trained model
+
+train dataset:
+datab-0-5-FO-250000N11.csv
+datab-0-5-FO-250000N12.csv
+datab-0-5-FON-280000N12.csv
+datab-0-6-FO-280000N12.csv
+0-5=>label:syn flood,icmp flood,slowloris,slow post,slow read
+0-6=>label:syn flood,icmp flood,udp flood,slowloris,slow post,slow read
+FO=>firewall off
+FON=>firewall off,open apache
+250000=>Number of data
+N11,N12=>N11,N12Feature field
+
+test dataset:
+t50515253545562-FO-N12.csv
+t505152535462-FO-N11.csv
+t505152535462-FO-N12.csv
+t505152535462-FON-N12.csv
+50515253545562=>Indicates the last three digits of the ip address:150,151,152,153,154,155,162
+FO=>firewall off
+FON=>firewall off,open apache
+N11,N12=>N11,N12Feature field
+
+The trained model:
+rbfModel-0-5-FO-250000N10-100.pickle
+rbfModel-0-5-FO-250000N22-100.pickle
+rbfModel-0-5-FON-280000N22-100.pickle
+rbfModel-0-6-FO-280000N22-100.pickle
+xgboostModel-0-6-FO-280000N22-100.pickle
+xgboostModel-FO-250000N10-100.pickle
+xgboostModel-FO-250000N22-100.pickle
+xgboostModel-FON-280000N22-100.pickle
+rbfModel=>Use SVM train,Using the RDF kernel function
+xgboostModel=>Use XGBoost train
+0-5=>label:syn flood,icmp flood,slowloris,slow post,slow read
+0-6=>label:syn flood,icmp flood,udp flood,slowloris,slow post,slow read
+FO=>firewall off
+FON=>firewall off,open apache
+250000=>Number of data
+N11,N12=>N11,N12Feature field
+N22=>N22Feature field:protocol_type	count	srv_count	same_srv_rate	diff_srv_rate	srv_diff_host_rate	dst_host_count	dst_host_srv_count	dst_host_same_srv_rate	dst_host_diff_srv_rate	dst_host_same_src_port_rate	dst_host_srv_diff_host_rate	PT	NT	Win	TSC	label

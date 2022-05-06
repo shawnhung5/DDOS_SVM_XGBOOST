@@ -1,0 +1,43 @@
+ WARN 2021-02-05T14:40:39.380 ..\..\qModMaster\src\mainwindow.cpp @ 163 RTU settings changes rejected  
+ERROR 2021-02-05T14:46:36.260 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : Connection reset" 
+ERROR 2021-02-05T14:46:38.274 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:40.284 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:42.298 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:44.310 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:46.324 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:48.335 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:51.626 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:53.638 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:46:55.651 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:22.156 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:35.431 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:37.445 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:39.458 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:41.470 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:43.482 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:45.495 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:47.505 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:49.518 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:47:51.532 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:48:06.866 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:48:08.877 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-05T14:51:11.488 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : Illegal data address" 
+ERROR 2021-02-05T14:52:11.599 ..\..\qModMaster\src\modbusadapter.cpp @ 135 Connection to IP :  "192.168.245.129" : 502 ...failed. Could not connect to TCP port 
+ERROR 2021-02-05T14:52:13.431 ..\..\qModMaster\src\modbusadapter.cpp @ 135 Connection to IP :  "192.168.245.129" : 502 ...failed. Could not connect to TCP port 
+ERROR 2021-02-05T14:52:14.407 ..\..\qModMaster\src\modbusadapter.cpp @ 135 Connection to IP :  "192.168.245.129" : 502 ...failed. Could not connect to TCP port 
+ERROR 2021-02-05T14:52:58.928 ..\..\qModMaster\src\modbusadapter.cpp @ 135 Connection to IP :  "192.168.245.129" : 502 ...failed. Could not connect to TCP port 
+ERROR 2021-02-10T16:05:42.920 ..\..\qModMaster\src\modbusadapter.cpp @ 135 Connection to IP :  "192.168.245.129" : 502 ...failed. Could not connect to TCP port 
+ERROR 2021-02-10T16:06:02.502 ..\..\qModMaster\src\modbusadapter.cpp @ 135 Connection to IP :  "192.168.245.129" : 502 ...failed. Could not connect to TCP port 
+ERROR 2021-02-10T16:10:11.184 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : Connection reset" 
+ERROR 2021-02-10T16:10:13.197 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-10T16:10:15.201 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-10T16:10:17.218 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-10T20:02:13.550 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-10T20:02:15.525 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-10T20:02:19.986 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-10T20:02:21.999 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ERROR 2021-02-10T20:02:33.355 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : No error" 
+ WARN 2021-02-10T20:15:05.521 ..\..\qModMaster\src\mainwindow.cpp @ 196 Settings changes rejected  
+ERROR 2021-02-10T22:09:27.600 ..\..\qModMaster\src\modbusadapter.cpp @ 135 Connection to IP :  "192.168.101.10" : 502 ...failed. Could not connect to TCP port 
+ WARN 2021-04-15T09:57:58.331 ..\..\qModMaster\src\mainwindow.cpp @ 163 RTU settings changes rejected  
+ERROR 2021-06-17T18:33:52.294 ..\..\qModMaster\src\modbusadapter.cpp @ 290 Read Data failed.  "Error : Timeout" 
